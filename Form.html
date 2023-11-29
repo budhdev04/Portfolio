@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <p><b>Enter the login Credentials to reach me out directly.</b></p>
+        <form action="/formbackend.php">Login ID<br/>
+            <input type="text" placeholder="Type something"><br/><br/>
+            Password<br/>
+            <input type="password" placeholder="Enter the password">
+
+            <br/><br/>
+            <b>How do you want to communicate?</b><br><br>
+            <input type="radio" value="Through Chat" name="communication" id="101"> Through Chat<br/><br/>
+            <input type="radio" value="Meeting IRL" name="communication" id="102"> Meeting IRL 
+<br><br>
+
+        <b>What help do you want?</b><br>
+        <label for="Suggestion">
+            <input type="checkbox" value="Suggestion" name="help" id="1">Suggestion
+        </label><br>
+        <label for="Advise">
+            <input type="checkbox" value="Advise" name="help" id="1">Advise
+        </label><br>
+        <label for="Support">    
+            <input type="checkbox" value="Support" name="help" id="1">Support</label><br>
+            <label for="Financial Help">
+            <input type="checkbox" value="Financial Help" name="help" id="1">Financial Help<br>
+        </label>
+        <br>
+
+        <b>Which social media platform do you use the most?</b><br>
+        <select name="Platform">
+            <option value="Instagram">Instagram</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Twitter">Twitter</option>
+            <option value="Snapchat">Snapchat</option>
+            <option value="Others">Others</option>
+        </select><br>
+        If others, Please provide the profile link below.<br><br>\
+        Other Platform<br>
+        <textarea name="Other Platform Name" Placeholder="..."></textarea><br><br>Profile Link<br>
+        <textarea name="Profile link" Placeholder="..."></textarea>
+        </form>
+
+    </main>
+    <br><br>
+    <footer>
+        <textarea name="Feeback" id="123" placeholder="Please give your valuable feedback" rows="10" >Feedback</textarea>
+        <form action="/formbackend.php">
+        <input type="submit" value="Submit">
+    </form>
+    </footer>           
+</body>
+</html>
